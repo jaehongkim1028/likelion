@@ -12,7 +12,11 @@
     display: flex;
     justify-content: flex-start;
 }
-.first_background {
+.first_background,
+.second_background,
+.third_background,
+.forth_background,
+.fivth_background {
     height: 100vh;
     width: 30%;
     background-color: #0ecb81;
@@ -44,7 +48,8 @@
     position: absolute;
     margin-left: 0vw;
 }
-.profileContents {
+.profileContents,
+.Contents {
     margin-top: 10vh;
 }
 .profileContents p {
@@ -59,7 +64,11 @@
     height: 100vh;
     background-color: red;
     position: absolute;
-    margin-left: 10vw;
+}
+
+.Contents p {
+    color: #989797;
+    font-size: 30px;
 }
 
 .picBox {
@@ -68,6 +77,11 @@
 }
 
 .picCat {
+    width: auto;
+    height: 100vh;
+}
+
+.picPer2 {
     width: auto;
     height: 100vh;
 }
