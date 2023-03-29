@@ -43,7 +43,7 @@
 }
 
 .picture {
-    width: auto;
+    width: 30vw;
     height: 100vh;
     position: absolute;
     margin-left: 0vw;
@@ -77,12 +77,12 @@
 }
 
 .picCat {
-    width: auto;
+    width: 40vw;
     height: 100vh;
 }
 
 .picPer2 {
-    width: auto;
+    width: 50vw;
     height: 100vh;
 }
 
